@@ -25,7 +25,7 @@ public class UserController {
 	public String register(@ModelAttribute UserEntity ue) {
 		System.out.println(ue);
 		repo.save(ue);
-		
-		return "DATA REGISTERED ";
+//		System.out.println("Next learn how to add security");
+		return "DATA REGISTERED SUCCESSFULLY  ";
 	}
 }
